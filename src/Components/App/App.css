@@ -45,11 +45,11 @@
 
 .profile {
 	width: 35vmin;
-	position: absolute;
-	margin: 0 auto;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
+  display: flex;
+	align-items: center;
+	justify-content: center;
+  margin: 0 auto;
+  margin-top: -35vmin;
 	filter: drop-shadow(0 6mm 4mm gray);
 }
 
@@ -57,3 +57,14 @@
   font-family: 'Italiana', serif;
   font-size: 5vmin;
 }
+.ProfileDescription{
+  font-family: 'Italiana', serif;
+  font-size: 3vmin;
+}
+
+.ProfileDescriptionContainer{
+  width: 50%;
+  margin: 0 auto;
+}
+
+/* profile media query under 1300 */

@@ -13,3 +13,41 @@
 	bottom: 0;
 	height: 60px;
 }
+
+.SocMediaList {
+    background-color: #ffffff;
+    border: #0d420d;
+    border-radius: 75px;
+    padding: 1vmin;
+    width: 80vmin;
+    align-items: center;
+    justify-content: center;
+    margin: auto 0;
+    display: flex;
+    max-width: 100%;
+    max-height: 100%;
+    width: min-content;
+}
+
+ul {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+li {
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 25px;
+    padding: 0 1.25vmin;
+    width: 6vmin;
+    height: 6vmin;
+    display: inline-block;
+}
+
+li img {
+    width: 100%;
+}
+
+/* media query for under 1770 */

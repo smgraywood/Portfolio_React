@@ -4,7 +4,7 @@ import "./HeaderImg.css"
 function HeaderImg () {
     return (
         <>
-        <img src={skyline} className="HeaderImg"></img>
+        <img src={skyline} className="HeaderImg" alt="drawn outline of San Jose CA skyline"></img>
         </>
     )
 }

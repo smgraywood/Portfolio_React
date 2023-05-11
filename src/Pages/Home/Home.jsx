@@ -5,7 +5,7 @@ const Home = () => {
 	return (
 		<>
 			<h1>Home</h1>
-			<img src={skyline} className="skyline"></img>
+			<img src={skyline} className="skyline" alt="drawn outline of San Jose CA skyline"></img>
 		</>
 	);
 };
