@@ -1,5 +1,6 @@
 import HeaderImg from "../../Components/HeaderImg/HeaderImg";
 import profile from "../../Images/profile.png";
+import signature from "../../Images/signature.png";
 import SocialMediaNav from "../../Components/SocialMediaNav/SocialMediaNav";
 
 const Main = () => {
@@ -12,7 +13,7 @@ const Main = () => {
 				className="profile"
 				alt="headshot of woman smiling at camera wearing a yellow sweater"
 			></img>
-			<p className="Hello">Hi, I'm Sarah.</p>
+			<p className="Hello">Hi, I'm <img src={signature} className="signature"></img></p>
 			<SocialMediaNav />
 			<div className="ProfileDescriptionContainer">
 				<p className="ProfileDescription">
