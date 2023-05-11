@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
+
+nav{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    width: 90%;
+}
+
+a{
+    font-family: 'Italiana', serif;
+    font-size: 4vmin;
+    color: #000;
+    text-decoration: none;
+}
+
+nav a.active {
+    color: #E5BF6D;
+}
+

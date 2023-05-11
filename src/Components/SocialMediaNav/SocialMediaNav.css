@@ -1,0 +1,15 @@
+.OuterContainer {
+	height: 50px;
+}
+.InnerContainer {
+	display: flex;
+	justify-content: flex-end;
+	flex-flow: column;
+	align-items: center;
+	position: relative;
+	right: 0;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	height: 60px;
+}
