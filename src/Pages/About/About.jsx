@@ -7,7 +7,7 @@ const About = () => {
             
 			<HeaderImg />
 			<div className="aboutme">
-				<p>I’ve been coding for almost 3 years.</p>
+				<p>I code in Javascript and Python (mostly).</p>
 				<p>I care for 2 cats and over 100 succulents and cacti.</p>
 				<p>I love design, art, color, and fashion.</p>
 				<p>I joyfully move my body via Latin dance.</p>

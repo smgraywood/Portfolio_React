@@ -1,4 +1,3 @@
-import { useSearchParams } from "react-router-dom";
 import skyline from "../../Images/skyline.jpeg";
 import { useEffect, useState } from "react";
 import axios from "axios";
@@ -16,7 +15,7 @@ function Home() {
 			limit: "1",
 		},
 		headers: {
-			"X-Api-Key": "IVtQmp37gd3NE3SPDKRrLQ==79hqzLO1QtGnyTs9",
+			"X-Api-Key": "",
 		},
 	};
 	const apiCall = async () => {

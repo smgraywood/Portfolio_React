@@ -98,4 +98,18 @@
   opacity: .8;
   border-radius: 6vmin;
 }
+
+.github-projects{
+  width: 3vmin;
+  border-radius: 100%;
+}
+
+.github-projects:hover{
+  background-color:#4978DF;
+  filter: invert(100%)
+}
+
+.project-link:hover{
+  color: #E5BF6D;
+}
 /* .profile and .about, .aboutme media query under 1300 */
