@@ -73,4 +73,29 @@
   margin-bottom: -4vmin;
 }
 
-/* profile media query under 1300 */
+.About{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  flex-direction: column;
+}
+
+.aboutme{
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  position: relative;
+  margin-top: -40vmin;
+  width: 50%;
+  font-family: 'Italiana', serif;
+  font-size: 3vmin;
+  background-color: #FFF;
+  opacity: .8;
+  border-radius: 6vmin;
+}
+/* .profile and .about, .aboutme media query under 1300 */
