@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Italiana&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
 
 .App {
 	text-align: center;
@@ -46,70 +46,88 @@
 
 .profile {
 	width: 35vmin;
-  display: flex;
+	display: flex;
 	align-items: center;
 	justify-content: center;
-  margin: 0 auto;
-  margin-top: -35vmin;
+	margin: 0 auto;
+	margin-top: -35vmin;
 	filter: drop-shadow(0 6mm 4mm gray);
 }
 
-.Hello{
-  font-family: 'Montserrat', sans-serif;
-  font-size: 4.5vmin;
+.Hello {
+	font-family: "Montserrat", sans-serif;
+	font-size: 4.5vmin;
 }
-.ProfileDescription{
-  font-family: 'Italiana', serif;
-  font-size: 3vmin;
-}
-
-.ProfileDescriptionContainer{
-  width: 50%;
-  margin: 0 auto;
+.ProfileDescription {
+	font-family: "Italiana", serif;
+	font-size: 3vmin;
 }
 
-.signature{
-  height: 10vmin;
-  margin-bottom: -4vmin;
+.ProfileDescriptionContainer {
+	width: 50%;
+	margin: 0 auto;
 }
 
-.About{
-  display: flex;
-  justify-content:center;
-  align-items: center;
-  justify-content: center;
-  margin: 0 auto;
-  flex-direction: column;
+.signature {
+	height: 10vmin;
+	margin-bottom: -4vmin;
 }
 
-.aboutme{
-  display: flex;
-  flex-direction: column;
-  justify-content:center;
-  align-items: center;
-  text-align: center;
-  margin: 0 auto;
-  position: relative;
-  margin-top: -40vmin;
-  width: 50%;
-  font-family: 'Italiana', serif;
-  font-size: 3vmin;
-  background-color: #FFF;
-  opacity: .8;
-  border-radius: 6vmin;
+.About {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	justify-content: center;
+	margin: 0 auto;
+	flex-direction: column;
 }
 
-.github-projects{
-  width: 3vmin;
-  border-radius: 100%;
+.infodiv {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin: 0 auto;
+	position: relative;
+	margin-top: -45vmin;
+	width: 45%;
+	font-family: "Italiana", serif;
+	font-size: 2.5vmin;
+	background-color: #fff;
+	opacity: 0.8;
+	border-radius: 6vmin;
+	box-shadow: 0 0 5px 10px #fff;
+	padding: -1.5vmin;
 }
 
-.github-projects:hover{
-  background-color:#4978DF;
-  filter: invert(100%)
+.github-projects {
+	width: 3vmin;
+	border-radius: 100%;
 }
 
-.project-link:hover{
-  color: #E5BF6D;
+.github-projects:hover {
+	background-color: #4978df;
+	filter: invert(100%);
 }
-/* .profile and .about, .aboutme media query under 1300 */
+
+.project-link:hover {
+	color: #e5bf6d;
+}
+
+.technologies-div {
+	display: grid;
+	grid-template-columns: 100% 100% 100%;
+	position: relative;
+	margin-top: -25vmin;
+	width: 45%;
+	font-family: "Italiana", serif;
+	font-size: 2.5vmin;
+	background-color: #fff;
+	opacity: 0.8;
+	border-radius: 6vmin;
+	box-shadow: 0 0 5px 10px #fff;
+	padding: -1.5vmin;
+	margin: 0 auto;
+}
+/* .profile and .about, .infodiv media query under 1300 */
