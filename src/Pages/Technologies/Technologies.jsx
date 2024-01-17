@@ -38,55 +38,168 @@ import sass from "../../Images/skill_svg/sass-original.svg";
 import trello from "../../Images/skill_svg/trello-plain.svg";
 import vscode from "../../Images/skill_svg/vscode-plain.svg";
 
-
-
 const Technologies = () => {
 	return (
 		<div className="Technologies">
 			<h1>Technologies</h1>
 			<HeaderImg />
-			<div className="technologies-div">
-				<div className="infodiv">
-					<img className="logo" src={bash} alt="bash logo"></img>
-					<img className="logo" src={bootstrap} alt="bootstrap logo"></img>
-					<img className="logo" src={canva} alt="canva logo"></img>
-					<img className="logo" src={codepen} alt="codepen logo"></img>
-					<img className="logo" src={css3} alt="css3 logo"></img>
-					<img className="logo" src={digitalocean} alt="digitalocean logo"></img>
-					<img className="logo" src={docker} alt="docker logo"></img>
-					<img className="logo" src={eslint} alt="eslint logo"></img>
-					<img className="logo" src={express} alt="express logo"></img>
-					<img className="logo" src={figma} alt="figma logo"></img>
-					<img className="logo" src={flask} alt="flask logo"></img>
-					<img className="logo" src={git} alt="git logo"></img>
-					<img className="logo" src={github} alt="github logo"></img>
-					<img className="logo" src={gitlab} alt="gitlab logo"></img>
-					<img className="logo" src={grafana} alt="grafana logo"></img>
-					<img className="logo" src={heroku} alt="heroku logo"></img>
-					<img className="logo" src={html5} alt="html5 logo"></img>
-					<img className="logo" src={javascript} alt="javascript logo"></img>
-					<img className="logo" src={jest} alt="jest logo"></img>
-					<img className="logo" src={jira} alt="jira logo"></img>
-					<img className="logo" src={jquery} alt="jquery logo"></img>
-					<img className="logo" src={less} alt="less logo"></img>
-					<img className="logo" src={linux} alt="linux logo"></img>
-					<img className="logo" src={materialui} alt="materialui logo"></img>
-					<img className="logo" src={mongodb} alt="mongodb logo"></img>
-					<img className="logo" src={mysql} alt="mysql logo"></img>
-					<img className="logo" src={nginx} alt="nginx logo"></img>
-					<img className="logo" src={node} alt="node logo"></img>
-					<img className="logo" src={npm} alt="npm logo"></img>
-					<img className="logo" src={pandas} alt="pandas logo"></img>
-					<img className="logo" src={php} alt="php logo"></img>
-					<img className="logo" src={postgres} alt="postgres logo"></img>
-					<img className="logo" src={prometheus} alt="prometheus logo"></img>
-					<img className="logo" src={python} alt="python logo"></img>
-					<img className="logo" src={react} alt="react logo"></img>
+			<div className="techwrapper-div">
+				<div className="technologies-div">
+					<div className="techdiv">
+						<img className="logo" src={bash} alt="bash logo"></img>
+						<img
+							className="logo"
+							src={bootstrap}
+							alt="bootstrap logo"
+						></img>
+						<img
+							className="logo"
+							src={canva}
+							alt="canva logo"
+						></img>
+						<img
+							className="logo"
+							src={codepen}
+							alt="codepen logo"
+						></img>
+						<img className="logo" src={css3} alt="css3 logo"></img>
+						<img
+							className="logo"
+							src={digitalocean}
+							alt="digitalocean logo"
+						></img>
+						<img
+							className="logo"
+							src={docker}
+							alt="docker logo"
+						></img>
+						<img
+							className="logo"
+							src={eslint}
+							alt="eslint logo"
+						></img>
+						<img
+							className="logo"
+							src={express}
+							alt="express logo"
+						></img>
+						<img
+							className="logo"
+							src={figma}
+							alt="figma logo"
+						></img>
+						<img
+							className="logo"
+							src={flask}
+							alt="flask logo"
+						></img>
+						<img className="logo" src={git} alt="git logo"></img>
+						<img
+							className="logo"
+							src={github}
+							alt="github logo"
+						></img>
+						<img
+							className="logo"
+							src={gitlab}
+							alt="gitlab logo"
+						></img>
+						<img
+							className="logo"
+							src={grafana}
+							alt="grafana logo"
+						></img>
+						<img
+							className="logo"
+							src={heroku}
+							alt="heroku logo"
+						></img>
+						<img
+							className="logo"
+							src={html5}
+							alt="html5 logo"
+						></img>
+						<img
+							className="logo"
+							src={javascript}
+							alt="javascript logo"
+						></img>
+						<img className="logo" src={jest} alt="jest logo"></img>
+						<img className="logo" src={jira} alt="jira logo"></img>
+						<img
+							className="logo"
+							src={jquery}
+							alt="jquery logo"
+						></img>
+						<img className="logo" src={less} alt="less logo"></img>
+						<img
+							className="logo"
+							src={linux}
+							alt="linux logo"
+						></img>
+						<img
+							className="logo"
+							src={materialui}
+							alt="materialui logo"
+						></img>
+						<img
+							className="logo"
+							src={mongodb}
+							alt="mongodb logo"
+						></img>
+						<img
+							className="logo"
+							src={mysql}
+							alt="mysql logo"
+						></img>
+						<img
+							className="logo"
+							src={nginx}
+							alt="nginx logo"
+						></img>
+						<img className="logo" src={node} alt="node logo"></img>
+						<img className="logo" src={npm} alt="npm logo"></img>
+						<img
+							className="logo"
+							src={pandas}
+							alt="pandas logo"
+						></img>
+						<img className="logo" src={php} alt="php logo"></img>
+						<img
+							className="logo"
+							src={postgres}
+							alt="postgres logo"
+						></img>
+						<img
+							className="logo"
+							src={prometheus}
+							alt="prometheus logo"
+						></img>
+						<img
+							className="logo"
+							src={python}
+							alt="python logo"
+						></img>
+						<img
+							className="logo"
+							src={react}
+							alt="react logo"
+						></img>
+					</div>
+					<div>
+						<img className="logo" src={sass} alt="sass logo"></img>
+						<img
+							className="logo"
+							src={trello}
+							alt="trello logo"
+						></img>
+						<img
+							className="logo"
+							src={vscode}
+							alt="vscode logo"
+						></img>
+					</div>
 				</div>
-				<div>
-					<img className="logo" src={sass} alt="sass logo"></img>
-					<img className="logo" src={trello} alt="trello logo"></img>
-					<img className="logo" src={vscode} alt="vscode logo"></img></div>
 			</div>
 		</div>
 	);
