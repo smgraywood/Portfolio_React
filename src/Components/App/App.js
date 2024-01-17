@@ -2,7 +2,6 @@ import './App.css';
 import NavBar from '../NavBar/NavBar';
 import { Route, Routes } from 'react-router-dom';
 import About from '../../Pages/About/About';
-import Home from '../../Pages/Home/Home';
 import Main from '../../Pages/Main/Main';
 import Projects from '../../Pages/Projects/Projects';
 import Technologies from '../../Pages/Technologies/Technologies';
@@ -13,7 +12,6 @@ function App() {
       <NavBar/>
       <main>
         <Routes>
-          <Route path='/' element={<Home/>}></Route>
           <Route path='/main' element={<Main/>}></Route>
           <Route path='/about' element={<About/>}></Route>
           <Route path='/projects' element={<Projects/>}></Route>

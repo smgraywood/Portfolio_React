@@ -117,17 +117,25 @@
 
 .technologies-div {
 	display: grid;
-	grid-template-columns: 100% 100% 100%;
 	position: relative;
 	margin-top: -25vmin;
-	width: 45%;
+	width: 100%;
 	font-family: "Italiana", serif;
-	font-size: 2.5vmin;
-	background-color: #fff;
 	opacity: 0.8;
-	border-radius: 6vmin;
-	box-shadow: 0 0 5px 10px #fff;
-	padding: -1.5vmin;
-	margin: 0 auto;
+}
+.infodiv{
+	justify-content: center;
+	display: grid;
+	grid-template-columns: repeat(5, 20vmin);
+	margin-top: -40px;
+	pointer-events: none;
+}
+
+.logo{
+	width: 15vmin;
+	height: 15vmin;
+	padding: 15px;
+	margin: 5px;
+	filter: grayscale(100%);
 }
 /* .profile and .about, .infodiv media query under 1300 */
