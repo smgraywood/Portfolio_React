@@ -41,7 +41,6 @@ import vscode from "../../Images/skill_svg/vscode-plain.svg";
 const Technologies = () => {
 	return (
 		<div className="Technologies">
-			<h1>Technologies</h1>
 			<HeaderImg />
 			<div className="techwrapper-div">
 				<div className="technologies-div">

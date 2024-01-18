@@ -3,7 +3,6 @@ import HeaderImg from "../../Components/HeaderImg/HeaderImg";
 const About = () => {
 	return (
 		<div className="About">
-			<h1>About</h1>
             
 			<HeaderImg />
 			<div className="infodiv">

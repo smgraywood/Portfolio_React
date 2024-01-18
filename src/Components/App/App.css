@@ -50,7 +50,7 @@
 	align-items: center;
 	justify-content: center;
 	margin: 0 auto;
-	margin-top: -35vmin;
+	margin-top: -25vmin;
 	filter: drop-shadow(0 6mm 4mm gray);
 }
 
@@ -124,7 +124,7 @@
 	text-align: center;
 	margin: 0 auto;
 	position: relative;
-	margin-top: -45vmin;
+	margin-top: -35vmin;
 	width: 45%;
 	font-family: "Italiana", serif;
 	font-size: 2.5vmin;
